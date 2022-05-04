@@ -1,6 +1,6 @@
 Programmer: Henry Avink
-Date: 5/3/22
-Program: Hello Square
+Date: 5/4/22
+Program: Figure Eight
 Serial Number: SB-F28B
 
 async function startProgram() {
