@@ -4,23 +4,10 @@ Program: Figure Eight
 Serial Number: SB-F28B
 
 async function startProgram() {
-
-	setMainLed({ r: 0, g: 0, b: 255 });
-
-	await speak("Hello Square", true);
-
-	await delay(1);
-
-	for (var _i1 = 0; _i1 < 4; _i1++) {
-
-		setMainLed(getRandomColor());
-
-		await Sound.Game.Coin.play(true);
-
-		await roll((getHeading() + 90), 60, 1);
-
-		await delay(1);
-
-	}
-
+	await speak("Spinning in a circle", false);
+	setSpeed(75);
+	await spin(360, 5);
+	await spin(-360, 5);
+	// Write more code here
+	exitProgram();
 }
