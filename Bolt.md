@@ -1,3 +1,3 @@
-Programmer: Henry Avink
+Programmer: Henry Avink and Zachary Villarimo
 Date: 5/3/22
-Program: Bolt (Javascript)
+Program: Maze
