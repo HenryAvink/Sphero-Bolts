@@ -7,7 +7,12 @@ async function startProgram() {
 	await scrollMatrixText('START', { r: 256, g: 256, b: 256 }, 15, true)
 	await delay (2);
 	setSpeed(75);
-	await delay (2.4);
+	await delay (2.1);
 	setSpeed(0);
 	setMainLed({ r: 0, g: 0, b: 256 });
+	await spin(90,.5);
+	
+	
+	
+	
 }
