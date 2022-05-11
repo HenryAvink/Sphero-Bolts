@@ -11,8 +11,14 @@ async function startProgram() {
 	setSpeed(0);
 	setMainLed({ r: 0, g: 0, b: 256 });
 	await spin(90,.5);
-	
-	
-	
+	await delay (0.5);
+	setSpeed(75);
+	await delay (1.35);
+	setSpeed(0);
+	await spin(90,.5);
+	await delay (0.5);
+	setSpeed(75);
+	await delay (0.65);
+	setSpeed(0);
 	
 }
