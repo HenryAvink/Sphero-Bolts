@@ -20,5 +20,12 @@ async function startProgram() {
 	setSpeed(75);
 	await delay (0.65);
 	setSpeed(0);
+	await delay (0.5);
+	await Sound.play(true);
+	await spin(40, 0.5);
+	await delay (0.5);
+	setSpeed(75);
+	await delay (0.7);
+	setSpeed(0);
 	
 }
