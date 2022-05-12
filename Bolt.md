@@ -46,5 +46,9 @@ async function startProgram() {
 	await delay (0.2);
 	setSpeed(0);
 	await Sound.Animal.play(true);
+	setSpeed(75);
+	await delay (0.5);
+	setSpeed(0);
+	await spin(50, .5);
 }
 
