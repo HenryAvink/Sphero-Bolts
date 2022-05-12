@@ -18,14 +18,18 @@ async function startProgram() {
 	await spin(90,.5);
 	await delay (0.5);
 	setSpeed(75);
-	await delay (0.65);
+	await delay (0.7);
 	setSpeed(0);
 	await delay (0.5);
 	await Sound.play(true);
 	await spin(40, 0.5);
 	await delay (0.5);
 	setSpeed(75);
-	await delay (0.7);
+	await delay (1);
 	setSpeed(0);
-	
+	await spin(-90,.5);
+	setSpeed(30);
+	await delay (0.45);
+	setSpeed(0)
+	setMainLed({ r: 256, g: 0, b: 0 });
 }
