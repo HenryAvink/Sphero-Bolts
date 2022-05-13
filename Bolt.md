@@ -34,21 +34,35 @@ async function startProgram() {
 	setMainLed({ r: 256, g: 0, b: 0 });
 	await delay (0.5);
 	setSpeed(30);
-	await delay (0.75);
+	await delay (1);
 	setSpeed(0)
 	await spin(-90, 0.5);
 	setSpeed(75);
-	await delay (0.7);
+	await delay (1);
 	setSpeed(0);
 	await spin(90, 0.5);
 	await delay (0.4);
 	setSpeed(30);
-	await delay (0.2);
+	await delay (0.3);
 	setSpeed(0);
 	await Sound.Animal.play(true);
 	setSpeed(75);
-	await delay (0.5);
+	await delay (0.48);
 	setSpeed(0);
+	await delay (0.5)
 	await spin(50, .5);
+	setSpeed(75);
+	await delay (.59);
+	setSpeed(0);
+	await spin(-90, .5);
+	setSpeed(30);
+	await delay (0.9);
+	setSpeed(0);
+	setMainLed({ r: 0, g: 256, b: 0 });
+	setSpeed(30);
+	await delay (0.9);
+	setSpeed(0);
 }
+
+
 
