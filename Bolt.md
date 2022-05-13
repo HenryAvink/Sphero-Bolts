@@ -62,7 +62,23 @@ async function startProgram() {
 	setSpeed(30);
 	await delay (0.9);
 	setSpeed(0);
+	await spin(-90, 0.5);
+	setSpeed(75);
+	await delay (0.7);
+	setSpeed(0)
+	await spin(-50, 0.5);
+	setSpeed(75);
+	await delay (0.7);
+	setSpeed(0)
+	await spin(50, 0.5);
+	setSpeed(75);
+	await delay (1.2);
+	setSpeed(0);
+	
 }
+
+
+
 
 
 
